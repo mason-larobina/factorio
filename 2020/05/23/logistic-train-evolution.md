@@ -634,5 +634,9 @@ Others are available on request (after a bit of cleanup).
 
 Would love you hear your feedback, corrections, contributions & fixes!
 
-Email: mason.larobina@gmail.com or raise an issue on [this GitHub
+Email: mason.larobina@gmail.com or raise an issue on the [GitHub
 repo](http://github.com/mason-larobina/factorio).
+
+For updates, star the repo or follow:
+
+https://github.com/mason-larobina/factorio/commits/master.atom
