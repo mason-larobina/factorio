@@ -42,7 +42,7 @@ The logistic depot consists of 4 main pieces:
   logistic trains, allowing multiple trains per station and avoiding deadlocks
   over the shared stations.
 
-![depot and stacker](depot_and_stacker.png)
+![depot and stacker](depot_and_stacker.jpg)
 
 Thanks to the AAI Containers mod and Factorio v1.1 the logistic outpost is more
 compact and contains many features (some the same, some new, some improved):
@@ -59,11 +59,11 @@ compact and contains many features (some the same, some new, some improved):
   each outpost.
 * No global circuit network needed.
 
-![outpost](outpost.png)
+![outpost](outpost.jpg)
 
 ## Logistic Loading Stations
 
-![depot](depot.png)
+![depot](depot.jpg)
 
 The stations are greatly simplified after the `Anything` signal output was
 added in Factorio v1.1 which removes the need for an index or max-signal based
@@ -86,7 +86,7 @@ Keep stacking stations for each logistic train type.
 
 ## Shared Trash And Storage
 
-![trash](trash.png)
+![trash](trash.jpg)
 
 Common to all trains and resets the wagons back to a known good state to
 prevent problems with item fragmentation.
@@ -97,7 +97,7 @@ total that same amount.
 
 ## Logistic Outpost
 
-![outpost](outpost.png)
+![outpost](outpost.jpg)
 
 The outpost may appear complex but is actually composed of several smaller,
 simpler, independent circuits that work together to provide the features above.
@@ -105,7 +105,7 @@ I'll break them down layer by layer for analysis and explanation.
 
 ### The Circuit Bus & Module Interface
 
-![circuit_bus](circuit_bus.png)
+![circuit_bus](circuit_bus.jpg)
 
 This is the connection interface between the modules and station. There are 4
 pairs of lamps connected by green and red wires. The station connects to the
@@ -113,7 +113,7 @@ left-most pair of lamps and the 3 modules connect to the remaining pairs.
 
 ### Unloader Circuit
 
-![unloader circuit](unloader_circuit.png)
+![unloader circuit](unloader_circuit.jpg)
 
 The unloader circuit subtracts the module request signal from the logistic
 module from the station storage. The logistic modules are not pictured here but
@@ -134,7 +134,7 @@ The result sets the filter inserter items.
 
 ### Trash Circuit
 
-![trash circuit](trash_circuit.png)
+![trash circuit](trash_circuit.jpg)
 
 This doubles the negative module request signal and subtracts it from the
 station storage.
@@ -153,13 +153,13 @@ their own smaller circuits with a `each < 100` condition.
 
 ### Bot Bootstrap
 
-![bot bootstrap](bot_bootstrap.png)
+![bot bootstrap](bot_bootstrap.jpg)
 
 Bootstrap the initial logistic bots from either wagon of the seed train.
 
 ### Bot Loader
 
-![bot loader](bot_loader.png)
+![bot loader](bot_loader.jpg)
 
 A simple difference circuit looks at a combinator with the bot set-points (e.g.
 `{ logistic: 100, construction: 100 }` and subtracts the current bot counts.
@@ -168,7 +168,7 @@ The result is used to set requests on the requester chest.
 
 ### Combined Again And Close Up
 
-![outpost zoom](outpost_zoom.png)
+![outpost zoom](outpost_zoom.jpg)
 
 ## Blueprints
 
