@@ -188,6 +188,10 @@ You can download it [here](sandbox.zip) and play with it yourself.
 Please raise an issue [here](http://github.com/mason-larobina/factorio) for any
 corrections or improvements.
 
+## Update: Vanilla Blueprints & Sandbox
+
+Vanilla blueprints can be found [here](vanilla-blueprint.txt) and the sandbox [here](vanilla-sandbox.zip).
+
 ## Discussion
 
 In [/r/factorio](https://www.reddit.com/r/factorio/comments/v5weot/logistic_train_upgrades_for_factorio_v11_part_5/) and [/r/technicalfactorio](https://www.reddit.com/r/technicalfactorio/comments/v5yc5w/logistic_train_upgrades_for_factorio_v11_part_5/).
