@@ -167,6 +167,7 @@ mason.larobina@pm.me for any corrections or improvements.
 
 ## Discussion
 
-TODO: /r/factorio link
+- [/r/factorio](https://www.reddit.com/r/factorio/comments/1ail40w/logistic_trains_without_logistic_bots_part_6/)
+- [/r/technicalfactorio](https://www.reddit.com/r/technicalfactorio/comments/1ail4zg/logistic_trains_without_logistic_bots_part_6/)
 
 Enjoy! 😁
