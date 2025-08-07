@@ -1,4 +1,6 @@
-# Logistic Train Upgrades for Factorio v1.1
+> **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
+
+# Logistic Train Upgrades For Factorio v1.1
 
 It's been a while, folks! I can't believe it's been two years since my [last
 posts](https://mason-larobina.github.io/factorio/). Thank you for sharing the

@@ -1,4 +1,6 @@
-# Logistic Circuits, Part 4: Outpost Refinements and Self-Contained Modules
+> **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
+
+# Logistic Circuits Part 4 - Outpost refinements, self-contained modules
 
 A major annoyance remains after the improvements in [parts 1, 2, and
 3](../../../).

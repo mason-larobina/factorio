@@ -1,4 +1,6 @@
-# Logistic Circuits, Part 3: The Max-Filter Loader
+> **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
+
+# Logistic Circuits Part 3 - Max filter loader, fixed point reached?
 
 Thanks to more discussion on my previous posts, I've been able to make a major
 simplification to the loader station.
