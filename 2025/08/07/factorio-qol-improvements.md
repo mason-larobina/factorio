@@ -6,9 +6,9 @@ Today, I want to take a moment to look back and appreciate how far the game has 
 
 I'll be focusing on three key features that have had a massive impact on my logistic train designs:
 
-*   The "Anything" combinator signal
-*   Train stop limits
-*   Global & named constant combinator signals
+- The "Anything" combinator signal
+- Train stop limits
+- Global & named constant combinator signals
 
 Let's dive in and see how things used to be, and how much better they are now.
 
@@ -30,9 +30,9 @@ Then came the `Anything` signal. This simple, elegant feature changed everything
 
 The logic is beautiful in its simplicity:
 
-1.  Take the requested items (a positive signal).
-2.  Subtract the items already in the train (a negative signal).
-3.  The result is what's missing. Feed this signal into a decider combinator set to `Anything > 0`, output `Anything (signal)`.
+1. Take the requested items (a positive signal).
+1. Subtract the items already in the train (a negative signal).
+1. The result is what's missing. Feed this signal into a decider combinator set to `Anything > 0`, output `Anything (signal)`.
 
 That's it. The `Anything` signal picks one of the positive signals and outputs it. The filter inserter can then be set to that item. On the next tick, a different item might be picked, or the same one. It doesn't matter. The system just works.
 
