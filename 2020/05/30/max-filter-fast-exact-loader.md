@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Logistic Circuits Part 3 - Max filter loader, fixed point reached?"
+date: 2020-05-30
+series: logistic-circuits
+series_title: "Logistic Circuits"
+series_part: 3
+---
+
 > **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
 
 # Logistic Circuits Part 3 - Max filter loader, fixed point reached?
@@ -131,10 +140,3 @@ I really like that the artillery trains can share the same outpost unloader circ
 
 [blueprint-book.txt](2020-05-30-blueprint-book.txt)
 
-I'd love to hear your feedback, corrections, contributions, and fixes!
-
-Email me at mason.larobina@gmail.com or raise an issue on the [GitHub repo](http://github.com/mason-larobina/factorio).
-
-For updates, star the repo or follow:
-
-https://github.com/mason-larobina/factorio/commits/master.atom

@@ -1,8 +1,15 @@
+---
+layout: post
+title: "Logistic Circuits Part 2 - Automatic indexes, trash trains, faster unloaders"
+date: 2020-05-28
+series: logistic-circuits
+series_title: "Logistic Circuits"
+series_part: 2
+---
+
 > **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
 
 # Logistic Circuits Part 2 - Automatic indexes, trash trains, faster unloaders
-
-This is a continuation of the [first post](../../../2020/05/23/logistic-train-evolution.md).
 
 Writing the first part of this series has been a very rewarding experience. I'm re-learning how valuable teaching is for both the writer and the reader.
 
@@ -229,10 +236,3 @@ And finally, I upgraded my logistic stations to share the same trash stop with t
 
 [blueprint-book.txt](2020-05-28-blueprint-book.txt)
 
-I'd love to hear your feedback, corrections, contributions, and fixes!
-
-Email me at mason.larobina@gmail.com or raise an issue on the [GitHub repo](http://github.com/mason-larobina/factorio).
-
-For updates, star the repo or follow:
-
-https://github.com/mason-larobina/factorio/commits/master.atom

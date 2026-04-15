@@ -1,12 +1,13 @@
+---
+layout: post
+title: "Logistic Circuits Part 6 - Logistic Trains Without Logistic Bots"
+date: 2024-02-04
+series: logistic-circuits
+series_title: "Logistic Circuits"
+series_part: 6
+---
+
 > **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
-
-Previous posts:
-
-- [2020-05-23 - My Factorio Logistic Train Evolution](/factorio/2020/05/23/logistic-train-evolution.html)
-- [2020-05-28 - Logistic Circuits Part 2 - Automatic indexes, trash trains, faster unloaders](/factorio/2020/05/28/logistic-circuits-part-2.html)
-- [2020-05-30 - Logistic Circuits Part 3 - Max filter loader, fixed point reached?](/factorio/2020/05/30/max-filter-fast-exact-loader.html)
-- [2020-06-01 - Logistic Circuits Part 4 - Outpost refinements, self-contained modules](/factorio/2020/06/01/self-contained-modules.html)
-- [2022-06-06 - Logistic Circuits Part 5 - Upgrades for Factorio v1.1](/factorio/2022/06/06/upgrades-for-factorio-1-1.html)
 
 # Logistic Trains Without Logistic Bots
 
@@ -101,10 +102,6 @@ If you want to see it in action, I've uploaded my current save game. You'll see 
 Go to one of the wall stations and start building, or add and remove modules from the station to see the depot and trains do their dance.
 
 I'm not providing blueprints for now, as it should be simple enough to copy what you need from the save game. You can find my rail blueprints in prior posts.
-
-## Bugs & Feedback
-
-Please raise an issue [here](http://github.com/mason-larobina/factorio) or email mason.larobina@pm.me for any corrections or improvements.
 
 ## Discussion
 

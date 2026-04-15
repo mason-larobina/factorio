@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Logistic Circuits Part 5 - Upgrades for Factorio v1.1"
+date: 2022-06-06
+series: logistic-circuits
+series_title: "Logistic Circuits"
+series_part: 5
+---
+
 > **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
 
 # Logistic Train Upgrades For Factorio v1.1
@@ -132,10 +141,6 @@ And a simple rail blueprint book [here](rails.txt).
 The screenshots from this post are from a sandbox world I used to demonstrate and explain the updated logistic train circuits.
 
 You can download it [here](sandbox.zip) and play with it yourself.
-
-## Bugs & Feedback
-
-Please raise an issue [here](http://github.com/mason-larobina/factorio) for any corrections or improvements.
 
 ## Update: Vanilla Blueprints & Sandbox
 

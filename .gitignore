@@ -1,0 +1,5 @@
+.aider*
+_site/
+.jekyll-cache/
+.bundle/
+vendor/

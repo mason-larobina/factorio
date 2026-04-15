@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% if page.series %}
+<p><strong>{{ page.series_title }} Series:</strong></p>
+<ul class="series-list">
+{% assign series_posts = site.pages | where: "series", page.series | sort: "series_part" %}
+{% for p in series_posts %}
+  <li>
+    {% if p.url == page.url %}<span class="series-current">{{ p.date | date: "%Y-%m-%d" }} - {{ p.title }}</span>{% else %}<a href="{{ p.url | relative_url }}">{{ p.date | date: "%Y-%m-%d" }} - {{ p.title }}</a>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{{ content }}

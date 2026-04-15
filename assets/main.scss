@@ -1,0 +1,139 @@
+---
+---
+
+// Factorio dark theme — industrial charcoal + amber accents
+$text-color:       #cfc8b0;
+$background-color: #1c1c1c;
+$brand-color:      #e8a020;
+$grey-color:       #777;
+$grey-color-light: #2e2e2e;
+$grey-color-dark:  #aaa;
+
+@import "minima";
+
+// ── Header ────────────────────────────────────────────────────────────────
+.site-header {
+  background-color: #111;
+  border-top: 3px solid #e8a020;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.site-title,
+.site-title:visited {
+  color: #e8a020;
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────
+.site-footer {
+  background-color: #111;
+  border-top: 1px solid #2a2a2a;
+  color: #777;
+
+  a { color: #e8a020; }
+}
+
+// ── Links ─────────────────────────────────────────────────────────────────
+a {
+  color: #e8a020;
+
+  &:visited { color: #b07818; }
+  &:hover   { color: #f5c842; }
+}
+
+// ── Headings ──────────────────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+h1, h2, h3 {
+  color: #f0c040;
+}
+
+// ── Code — blueprint style ────────────────────────────────────────────────
+code {
+  background-color: #0d1b2a;
+  color: #5dd35d;
+  border: 1px solid #1e3a5a;
+}
+
+pre {
+  background-color: #0d1b2a;
+  border: 1px solid #1e3a5a;
+
+  > code {
+    border: none;
+  }
+}
+
+.highlight {
+  background: #0d1b2a;
+
+  .highlighter-rouge & { background: #0d1b2a; }
+
+  color: #5dd35d;
+  .c, .cm, .c1, .cs { color: #4a8a4a; font-style: italic; }
+  .k, .kc, .kd, .kp, .kr { color: #7ecfff; font-weight: bold; }
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx { color: #ce9178; }
+  .m, .mf, .mh, .mi, .mo, .il { color: #b5cea8; }
+  .nf { color: #dcdcaa; }
+  .err { color: #f44; background-color: transparent; }
+}
+
+// ── Images ────────────────────────────────────────────────────────────────
+img {
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px #2e2e2e, 0 4px 20px rgba(0, 0, 0, 0.7);
+  margin: 4px;
+}
+
+// ── Series nav ────────────────────────────────────────────────────────────
+.series-list {
+  list-style: none;
+  margin: none;
+
+  li {
+    position: relative;
+    padding: 5px 0 0px 20px;
+    margin: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #444;
+    }
+  }
+
+  li:has(.series-current) {
+    &::before {
+      top: 50%;
+      bottom: auto;
+      left: 1px;
+      transform: translateY(-50%);
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: #e8a020;
+    }
+  }
+}
+
+.series-current {
+  color: #f0c040;
+  font-weight: 600;
+}
+
+// ── Misc ──────────────────────────────────────────────────────────────────
+blockquote {
+  color: #999;
+  border-left-color: #e8a020;
+}
+
+hr {
+  border-color: #333;
+}

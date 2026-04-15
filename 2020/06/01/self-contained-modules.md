@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Logistic Circuits Part 4 - Outpost refinements, self-contained modules"
+date: 2020-06-01
+series: logistic-circuits
+series_title: "Logistic Circuits"
+series_part: 4
+---
+
 > **Note:** This post describes complex workarounds for challenges that have been addressed by quality of life features in Factorio. For a detailed look at these improvements, see my new post: [A Thank You to the Factorio Devs: An End to Complex Workarounds](/factorio/2025/08/07/factorio-qol-improvements.html).
 
 # Logistic Circuits Part 4 - Outpost refinements, self-contained modules
@@ -103,12 +112,3 @@ This blueprint book contains the latest outpost, depot, module, and train bluepr
 
 It should work out of the box (but you'll need a quasi-global green rail circuit network)!
 
-## Contact
-
-I'd love to hear your feedback, corrections, contributions, and fixes!
-
-Email me at mason.larobina@gmail.com or raise an issue on the [GitHub repo](http://github.com/mason-larobina/factorio).
-
-For updates, star the repo or follow:
-
-https://github.com/mason-larobina/factorio/commits/master.atom

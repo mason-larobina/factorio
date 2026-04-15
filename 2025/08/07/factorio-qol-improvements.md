@@ -1,3 +1,9 @@
+---
+layout: post
+title: "A Thank You to the Factorio Devs: An End to Complex Workarounds"
+date: 2025-08-07
+---
+
 # A Thank You to the Factorio Devs: An End to Complex Workarounds
 
 Factorio is a game that is close to my heart. I've spent countless hours building, optimizing, and sometimes, fighting my own creations. Over the years, I've written a lot about my journey with logistic trains, detailing the complex circuit networks I've built to solve what seemed like fundamental problems.

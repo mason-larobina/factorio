@@ -1,4 +1,13 @@
-# My Factorio Logistic Train Evolution, Part 1
+---
+layout: post
+title: "Logistic Circuits Part 1 - My Factorio Logistic Train Evolution"
+date: 2020-05-23
+series: logistic-circuits
+series_title: "Logistic Circuits"
+series_part: 1
+---
+
+# Logistic Circuits Part 1 - My Factorio Logistic Train Evolution
 
 I'm in love with this game. Factorio is a rare gem that allows you to sink 1,000 hours into building factories, circuits, and trains and still be learning something new. I'm on my third map now, and each one has been an amazing learning experience.
 
@@ -450,12 +459,3 @@ Here's a copy of the final blueprint book: [2020-05-22-blueprint.txt](2020-05-22
 
 Others are available on request (after a bit of cleanup).
 
-## Contact
-
-I'd love to hear your feedback, corrections, contributions, and fixes!
-
-Email: mason.larobina@gmail.com or raise an issue on the [GitHub repo](http://github.com/mason-larobina/factorio).
-
-For updates, star the repo or follow:
-
-https://github.com/mason-larobina/factorio/commits/master.atom
