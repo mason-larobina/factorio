@@ -77,10 +77,10 @@ The outpost has the following new and old features:
 - **NEW** Automatic bot upgrades and downgrades controlled from a constant combinator signal from any quality and quantity to any other quality and quantity.
 - **NEW** Bot autoscaling to temporarily increase active bots by 10x for major construction or logistic events. When the system is idle the bots are removed and sent back to base.
 - **NEW** Time delayed trash signal that is also capable of increasing train stop limit for larger trash events until complete.
+- **NEW** Full support for normal through to legendary items, inserters, chests, bots.
 - Automatic bot insertion into the roboports from the incoming train(s).
 - Unloads 8x chest inserters at a time. 
 - Loads trash train 8x chest inserters at a time.
-- Full support for normal through to legendary items, inserters, chests, bots.
 - Request trains when a module detects less than 100% of that train's item is present.
 - Unloads trains to 200% of desired items.
 - Trashes untracked items or items above 300% of requested.
