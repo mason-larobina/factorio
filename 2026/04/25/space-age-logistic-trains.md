@@ -226,4 +226,5 @@ And a simple rail blueprint book [here](masons-simple-ground-rails.txt).
 
 ## Discussion
 
-- TODO: Update links after publishing.
+- [/r/factorio](https://www.reddit.com/r/factorio/comments/1sve97j/masons_space_age_logistic_train_system/)
+- [/r/technicalfactorio](https://www.reddit.com/r/technicalfactorio/comments/1sve9l9/masons_space_age_logistic_train_system/)
